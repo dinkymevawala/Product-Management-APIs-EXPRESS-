@@ -1,14 +1,14 @@
 const companys = [{
     "companyid": 1,
-    "name": "TATA",
-    "productid": ['1', '4']
+    "name": "BMW",
+    "productid": ['1', '3']
 }, {
     "companyid": 2,
-    "name": "NEXA",
-    "productid": ['2', '5']
+    "name": "Audi",
+    "productid": ['4', '5']
 }, {
     "companyid": 3,
-    "name": "INDEX",
-    "productid": ['3']
+    "name": "TATA",
+    "productid": ['2']
 }]
 module.exports = companys
