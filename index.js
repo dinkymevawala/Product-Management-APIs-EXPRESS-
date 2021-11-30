@@ -3,7 +3,7 @@ const companys = require('./companys');
 const products = require('./products');
 const sallers = require('./sallers');
 const app = express()
-const port = 3000
+const port = 5432
 const { router } = require("express").Router();
 app.use(express.json())
 
@@ -227,4 +227,4 @@ app.get('/api/saller', (req, res) => {
     })
 })
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.listen(port, () => console.log(`Example app Running on port ${port}!`))
